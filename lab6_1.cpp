@@ -7,8 +7,8 @@ int main(){
     cin >> N;
 
     int sum = 0;
-    while (N%2=0){
-        cout << "#Even numbers = " << sum << ;
+    while (N%2 == 0){
+        cout << "#Even numbers = " << sum << "\n";
         sum = sum + 1;
     }
     
